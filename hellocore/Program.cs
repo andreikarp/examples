@@ -6,7 +6,7 @@ namespace hellocore
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, from .NET Core!");
+            Console.WriteLine("Hello, from .NET Core!!!");
         }
     }
 }
