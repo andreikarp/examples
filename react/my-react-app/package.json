@@ -28,5 +28,5 @@
     "vite": "^6.2.3",
     "vite-plugin-checker": "^0.9.1"
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@4.7.0"
 }
