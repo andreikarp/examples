@@ -212,6 +212,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cyclonedx/yarn-plugin-cyclonedx@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@cyclonedx/yarn-plugin-cyclonedx@npm:3.0.1"
+  bin:
+    cyclonedx-yarn: bin/cyclonedx-yarn-cli.js
+  checksum: 10c0/22719c253b6142248417e53c15cfa778452d84578aa9e7c3fd3e9ca0616ff849da53339e4c3c69c40de6e7815101036b642c06e37305faa20412360017a53bbf
+  languageName: node
+  linkType: hard
+
 "@esbuild/aix-ppc64@npm:0.25.1":
   version: 0.25.1
   resolution: "@esbuild/aix-ppc64@npm:0.25.1"
@@ -2929,6 +2938,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "my-react-app@workspace:."
   dependencies:
+    "@cyclonedx/yarn-plugin-cyclonedx": "npm:^3.0.1"
     "@eslint/js": "npm:^9.24.0"
     "@types/react": "npm:^19.1.0"
     "@types/react-dom": "npm:^19.1.1"

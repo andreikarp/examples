@@ -7,13 +7,16 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "bom:dev": "yarn exec cyclonedx-yarn --output-file bom-dev.json",
+    "bom:prod": "yarn exec cyclonedx-yarn --production --output-file bom-prod.json"
   },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@cyclonedx/yarn-plugin-cyclonedx": "^3.0.1",
     "@eslint/js": "^9.24.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.1",
