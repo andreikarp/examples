@@ -8,8 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "bom:dev": "yarn exec cyclonedx-yarn --output-file bom-dev.json",
-    "bom:prod": "yarn exec cyclonedx-yarn --production --output-file bom-prod.json"
+    "bom:dev": "yarn exec cyclonedx-yarn --output-file bom/bom-dev.json",
+    "bom:prod": "yarn exec cyclonedx-yarn --production --output-file bom/bom-prod.json"
   },
   "dependencies": {
     "react": "^19.1.0",
